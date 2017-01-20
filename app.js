@@ -20,7 +20,6 @@ var commentRoutes = require('./routes/comments'),
     indexRoutes = require('./routes/index');
 
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect('mongodb://mszauer:90233531@ds117869.mlab.com:17869/yelpcamp_mszauer');
 
 var app = express();
 
