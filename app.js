@@ -51,7 +51,7 @@ app.use(function(req,res,next){
    res.locals.success = req.flash('success');
    next();
 });
-
+//test
 app.use('/campgrounds',campgroundRoutes);
 app.use('/campgrounds/:id/comments',commentRoutes);
 app.use(indexRoutes);
